@@ -1,0 +1,442 @@
+{
+ "flux-schnell_A01": {
+  "error_type": "none",
+  "notes": "Clean white poster, exact, centred.",
+  "transcribed": [
+   "HELLO"
+  ],
+  "visual_quality": 5
+ },
+ "flux-schnell_A02": {
+  "error_type": "none",
+  "notes": "Exact.",
+  "transcribed": [
+   "AURORA"
+  ],
+  "visual_quality": 5
+ },
+ "flux-schnell_A03": {
+  "error_type": "none",
+  "notes": "Exact; small corner marks only.",
+  "transcribed": [
+   "QUANTUM"
+  ],
+  "visual_quality": 5
+ },
+ "flux-schnell_A04": {
+  "error_type": "none",
+  "notes": "Exact.",
+  "transcribed": [
+   "BICYCLE"
+  ],
+  "visual_quality": 5
+ },
+ "flux-schnell_A05": {
+  "error_type": "none",
+  "notes": "Exact.",
+  "transcribed": [
+   "HARMONY"
+  ],
+  "visual_quality": 5
+ },
+ "flux-schnell_A06": {
+  "transcribed": [
+   "KALEIDOSCOPE"
+  ],
+  "visual_quality": 5,
+  "error_type": "none",
+  "notes": "Exact, 12-letter word."
+ },
+ "flux-schnell_A07": {
+  "transcribed": [
+   "ZEPHYR"
+  ],
+  "visual_quality": 5,
+  "error_type": "none",
+  "notes": "Exact."
+ },
+ "flux-schnell_A08": {
+  "transcribed": [
+   "MOSA.IC"
+  ],
+  "visual_quality": 4,
+  "error_type": "insertion",
+  "notes": "Target MOSAIC rendered with an inserted full stop after A; small corner numbers (20, 18, 14, 21) also present as extra text."
+ },
+ "flux-schnell_A09": {
+  "transcribed": [
+   "SYMPHONY"
+  ],
+  "visual_quality": 5,
+  "error_type": "none",
+  "notes": "Exact."
+ },
+ "flux-schnell_A10": {
+  "transcribed": [
+   "LABYRINTH"
+  ],
+  "visual_quality": 5,
+  "error_type": "none",
+  "notes": "Exact; outlined letterforms, legible."
+ },
+ "flux-schnell_B01": {
+  "transcribed": [
+   "GOOD MORNING"
+  ],
+  "visual_quality": 4,
+  "error_type": "none",
+  "notes": "Exact; two-line layout, letterforms touch image edges."
+ },
+ "flux-schnell_B02": {
+  "transcribed": [
+   "OPEN EVERY DAY"
+  ],
+  "visual_quality": 5,
+  "error_type": "none",
+  "notes": "Exact; three-line layout."
+ },
+ "flux-schnell_B03": {
+  "transcribed": [
+   "FRESH BREAD HERE"
+  ],
+  "visual_quality": 5,
+  "error_type": "none",
+  "notes": "Exact; three-line layout."
+ },
+ "flux-schnell_B04": {
+  "transcribed": [
+   "READ MORE BOOKS"
+  ],
+  "visual_quality": 5,
+  "error_type": "none",
+  "notes": "Exact; poster in a library scene."
+ },
+ "flux-schnell_B05": {
+  "transcribed": [
+   "SILENT NIGHT SKYY"
+  ],
+  "visual_quality": 5,
+  "error_type": "insertion",
+  "notes": "SKY rendered as SKYY (extra Y)."
+ },
+ "flux-schnell_B06": {
+  "transcribed": [
+   "WILLD OCEAN WAVES"
+  ],
+  "visual_quality": 5,
+  "error_type": "insertion",
+  "notes": "WILD rendered as WILLD (extra L)."
+ },
+ "flux-schnell_B07": {
+  "transcribed": [
+   "HAPPY BIRTHDAY ANNA"
+  ],
+  "visual_quality": 5,
+  "error_type": "none",
+  "notes": "Exact; handwritten-style letterforms."
+ },
+ "flux-schnell_B08": {
+  "transcribed": [
+   "WELCOME TO KABUL"
+  ],
+  "visual_quality": 5,
+  "error_type": "none",
+  "notes": "Exact."
+ },
+ "flux-schnell_B09": {
+  "transcribed": [
+   "LEARN CODE CREATE"
+  ],
+  "visual_quality": 5,
+  "error_type": "none",
+  "notes": "Exact; handwritten-style letterforms."
+ },
+ "flux-schnell_B10": {
+  "transcribed": [
+   "PEACE L\u2665E HOPE"
+  ],
+  "visual_quality": 5,
+  "error_type": "substitution",
+  "notes": "LOVE rendered as L+heart+E: the O is replaced by a heart glyph, so the word is not exact despite the attractive poster."
+ },
+ "flux-schnell_C01": {
+  "transcribed": [
+   "42"
+  ],
+  "visual_quality": 5,
+  "error_type": "none",
+  "notes": "Exact."
+ },
+ "flux-schnell_C02": {
+  "transcribed": [
+   "2026"
+  ],
+  "visual_quality": 5,
+  "error_type": "none",
+  "notes": "Exact."
+ },
+ "flux-schnell_C03": {
+  "transcribed": [
+   "$11999"
+  ],
+  "visual_quality": 5,
+  "error_type": "mixed",
+  "notes": "Target $19.99: decimal point dropped and an extra 1 inserted; clean price-tag rendering."
+ },
+ "flux-schnell_C04": {
+  "transcribed": [
+   "3.14159"
+  ],
+  "visual_quality": 5,
+  "error_type": "none",
+  "notes": "Exact."
+ },
+ "flux-schnell_C05": {
+  "transcribed": [
+   "50% OFF!"
+  ],
+  "visual_quality": 5,
+  "error_type": "none",
+  "notes": "Exact; shop-window sign."
+ },
+ "flux-schnell_C06": {
+  "transcribed": [
+   "555.001142"
+  ],
+  "visual_quality": 3,
+  "error_type": "garbled",
+  "notes": "Target 555-0142 rendered twice, both wrong: top line 555.001142, bottom line 55.000142; hyphen became a dot and extra digits inserted. Transcribed value is the top line (reading order)."
+ },
+ "flux-schnell_C07": {
+  "transcribed": [
+   "11:300 AM"
+  ],
+  "visual_quality": 5,
+  "error_type": "mixed",
+  "notes": "Target 10:30 AM rendered as 11:300 AM (digit substitution plus extra 0)."
+ },
+ "flux-schnell_C08": {
+  "transcribed": [
+   "1,00,000"
+  ],
+  "visual_quality": 5,
+  "error_type": "deletion",
+  "notes": "Target 1,000,000 rendered with one 0 dropped from the first group."
+ },
+ "flux-schnell_C09": {
+  "transcribed": [
+   "A-7 B-9"
+  ],
+  "visual_quality": 5,
+  "error_type": "deletion",
+  "notes": "Comma replaced by a line break; both codes otherwise exact."
+ },
+ "flux-schnell_C10": {
+  "transcribed": [
+   "Hello, World!"
+  ],
+  "visual_quality": 5,
+  "error_type": "none",
+  "notes": "Exact, including comma and exclamation mark."
+ },
+ "flux-schnell_D01": {
+  "transcribed": [
+   "KABUL CAFE",
+   "Fresh Coffely Daily",
+   "$3 50"
+  ],
+  "visual_quality": 4,
+  "error_type": "mixed",
+  "notes": "Title duplicated (both copies exact); Coffee rendered Coffely; $3.50 rendered $3 50 (decimal point replaced by a space)."
+ },
+ "flux-schnell_D02": {
+  "transcribed": [
+   "THE QUIET RIVER",
+   "A Novel by SARA AHNMAII"
+  ],
+  "visual_quality": 5,
+  "error_type": "mixed",
+  "notes": "Title exact; author surname Ahmadi rendered AHNMAII."
+ },
+ "flux-schnell_D03": {
+  "transcribed": [
+   "SUN MARKET",
+   "Open 8 AM",
+   "Fresh Fruit"
+  ],
+  "visual_quality": 4,
+  "error_type": "extra_text",
+  "notes": "All three regions exact, but Open 8 AM is rendered twice; region-wise exactness still holds, extra copy noted here."
+ },
+ "flux-schnell_D04": {
+  "transcribed": [
+   "SCIENCE FAIR",
+   "Saturdait 10 Aw",
+   "Hall B"
+  ],
+  "visual_quality": 4,
+  "error_type": "mixed",
+  "notes": "Title duplicated (both exact); Saturday rendered Saturdait and AM as Aw, with an extra 10 AM line below; Hall B exact."
+ },
+ "flux-schnell_D05": {
+  "transcribed": [
+   "GOLDEN LOEAF",
+   "Baked Fresh",
+   "$2.75"
+  ],
+  "visual_quality": 5,
+  "error_type": "insertion",
+  "notes": "LOAF rendered LOEAF (extra E); other two regions exact."
+ },
+ "flux-schnell_D06": {
+  "transcribed": [
+   "POWER GYM",
+   "JOIN TODAY",
+   "FIST MONTH FREE"
+  ],
+  "visual_quality": 4,
+  "error_type": "mixed",
+  "notes": "Title exact. Join Today rendered in all caps with an extra small Join line above; First rendered FIST (r dropped, all caps). Case counts under the frozen rubric."
+ },
+ "flux-schnell_D07": {
+  "transcribed": [
+   "CITY LIBRARY",
+   "Read. Learn. Grow",
+   "Open Daily"
+  ],
+  "visual_quality": 5,
+  "error_type": "substitution",
+  "notes": "Commas in Read, Learn, Grow rendered as full stops."
+ },
+ "flux-schnell_D08": {
+  "transcribed": [
+   "STAR CINEMA",
+   "Now Showing",
+   "Ticeets $8"
+  ],
+  "visual_quality": 4,
+  "error_type": "mixed",
+  "notes": "Now Showing also appears with a colon; Tickets $8 appears as Ticeets $8 and, second copy, Tickets 8 without the dollar sign."
+ },
+ "flux-schnell_D09": {
+  "transcribed": [
+   "GREEN GARDEN",
+   "Seeds and Plants",
+   "SALE 20% OFF"
+  ],
+  "visual_quality": 5,
+  "error_type": "substitution",
+  "notes": "Sale 20% Off rendered in all caps (case-only difference under the frozen rubric)."
+ },
+ "flux-schnell_D10": {
+  "transcribed": [
+   "ART MUSEUM",
+   "New Exhibition",
+   "Entry $5"
+  ],
+  "visual_quality": 4,
+  "error_type": "extra_text",
+  "notes": "All regions exact; New Exhibition also appears in all caps as an extra copy."
+ },
+ "flux-schnell_E01": {
+  "transcribed": [
+   "RED:",
+   "BLUE"
+  ],
+  "visual_quality": 5,
+  "spatial_score": 1,
+  "error_type": "insertion",
+  "notes": "Spatial correct: RED left, BLUE right. RED carries an extra colon."
+ },
+ "flux-schnell_E02": {
+  "transcribed": [
+   "TOP",
+   "BOTTOM"
+  ],
+  "visual_quality": 5,
+  "spatial_score": 1,
+  "error_type": "none",
+  "notes": "Exact and spatially correct."
+ },
+ "flux-schnell_E03": {
+  "transcribed": [
+   "CAT",
+   "DOG"
+  ],
+  "visual_quality": 5,
+  "spatial_score": 1,
+  "error_type": "none",
+  "notes": "Exact; CAT above DOG."
+ },
+ "flux-schnell_E04": {
+  "transcribed": [
+   "SUN",
+   ""
+  ],
+  "visual_quality": 4,
+  "spatial_score": 0.5,
+  "error_type": "missing",
+  "notes": "SUN top-left present with a sun graphic; MOON bottom-right missing entirely."
+ },
+ "flux-schnell_E05": {
+  "transcribed": [
+   "ENTER",
+   "EXIT"
+  ],
+  "visual_quality": 5,
+  "spatial_score": 1,
+  "error_type": "none",
+  "notes": "Exact; ENTER left, EXIT right, door scene."
+ },
+ "flux-schnell_E06": {
+  "transcribed": [
+   "FIRST",
+   "SECOND",
+   "THIRD"
+  ],
+  "visual_quality": 5,
+  "spatial_score": 1,
+  "error_type": "none",
+  "notes": "Exact; correct vertical order."
+ },
+ "flux-schnell_E07": {
+  "transcribed": [
+   "NORTH",
+   "SOUTH"
+  ],
+  "visual_quality": 5,
+  "spatial_score": 1,
+  "error_type": "none",
+  "notes": "Exact; NORTH top, SOUTH bottom."
+ },
+ "flux-schnell_E08": {
+  "transcribed": [
+   "START",
+   "FINISH"
+  ],
+  "visual_quality": 4,
+  "spatial_score": 0.5,
+  "error_type": "spatial",
+  "notes": "Both words exact, but FINISH is at the bottom rather than on the right; START is duplicated on the left."
+ },
+ "flux-schnell_E09": {
+  "transcribed": [
+   "LEFT",
+   "RIGHT"
+  ],
+  "visual_quality": 5,
+  "spatial_score": 1,
+  "error_type": "none",
+  "notes": "Exact; LEFT left, RIGHT right."
+ },
+ "flux-schnell_E10": {
+  "transcribed": [
+   "ABOVE",
+   "BELOW"
+  ],
+  "visual_quality": 4,
+  "spatial_score": 1,
+  "error_type": "extra_text",
+  "notes": "Both words exact and correctly ordered; ABOVE also appears in lowercase as an extra copy."
+ }
+}

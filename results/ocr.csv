@@ -1,0 +1,51 @@
+model,prompt_id,category,manual,ocr,agree
+flux-schnell,A01,single_word,HELLO,HELLO,yes
+flux-schnell,A02,single_word,AURORA,AURORA,yes
+flux-schnell,A03,single_word,QUANTUM,QUANTUM,yes
+flux-schnell,A04,single_word,BICYCLE,BICYCLE,yes
+flux-schnell,A05,single_word,HARMONY,HARMONY,yes
+flux-schnell,A06,single_word,KALEIDOSCOPE,KALEIDOSCOPE,yes
+flux-schnell,A07,single_word,ZEPHYR,ZEPHYR,yes
+flux-schnell,A08,single_word,MOSA.IC,MOSA.IC,yes
+flux-schnell,A09,single_word,SYMPHONY,SYMPHONY,yes
+flux-schnell,A10,single_word,LABYRINTH,LABYRINTH,yes
+flux-schnell,B01,short_phrase,GOOD MORNING,GOOD MORNING,yes
+flux-schnell,B02,short_phrase,OPEN EVERY DAY,OPEN EVERY DAY,yes
+flux-schnell,B03,short_phrase,FRESH BREAD HERE,-F RESH BREAD HERE,no
+flux-schnell,B04,short_phrase,READ MORE BOOKS,";, READ - 7+ MORE r r qBOOKS",no
+flux-schnell,B05,short_phrase,SILENT NIGHT SKYY,SILENT NIGHT SKYY,yes
+flux-schnell,B06,short_phrase,WILLD OCEAN WAVES,WILLD OCEAN WAVES,yes
+flux-schnell,B07,short_phrase,HAPPY BIRTHDAY ANNA,HAPPY BIRTHDAY ANNA,yes
+flux-schnell,B08,short_phrase,WELCOME TO KABUL,WELCOME TO KABUL,yes
+flux-schnell,B09,short_phrase,LEARN CODE CREATE,LEARN | CODE CREATE,no
+flux-schnell,B10,short_phrase,PEACE L♥E HOPE,PEACE LWE HOPE,no
+flux-schnell,C01,numbers_punctuation,42,A2,no
+flux-schnell,C02,numbers_punctuation,2026,2026,yes
+flux-schnell,C03,numbers_punctuation,$11999,O 311 g99 P_- 3,no
+flux-schnell,C04,numbers_punctuation,3.14159,3.14159,yes
+flux-schnell,C05,numbers_punctuation,50% OFF!,son | OFF! - ie,no
+flux-schnell,C06,numbers_punctuation,555.001142,555.001142 95 .000142,no
+flux-schnell,C07,numbers_punctuation,11:300 AM,11:300 AM,yes
+flux-schnell,C08,numbers_punctuation,"1,00,000","1,00,000",yes
+flux-schnell,C09,numbers_punctuation,A-7 B-9,A-/ B-9,no
+flux-schnell,C10,numbers_punctuation,"Hello, World!","Hello, World!",yes
+flux-schnell,D01,multiple_regions,KABUL CAFE | Fresh Coffely Daily | $3 50,KABUL CAFE KABUL CAFE Fresh Coffely Daily $3 50,no
+flux-schnell,D02,multiple_regions,THE QUIET RIVER | A Novel by SARA AHNMAII,er E QUIET RIVER care we...,no
+flux-schnell,D03,multiple_regions,SUN MARKET | Open 8 AM | Fresh Fruit,SUN MARKET Open 8 AM Open 8 AM Fresh FRUIT,no
+flux-schnell,D04,multiple_regions,SCIENCE FAIR | Saturdait 10 Aw | Hall B,SCIENCE FAIR SCIENCE FAIR Saturdait 10 Aw 10 AM Hall B,no
+flux-schnell,D05,multiple_regions,GOLDEN LOEAF | Baked Fresh | $2.75,Baked Fresh,no
+flux-schnell,D06,multiple_regions,POWER GYM | JOIN TODAY | FIST MONTH FREE,POWER GYM — Join ————_ JOIN TODAY FIST MONTH FREE,no
+flux-schnell,D07,multiple_regions,CITY LIBRARY | Read. Learn. Grow | Open Daily,CITY LIBRARY Read. Learn. Grow Open Daily,yes
+flux-schnell,D08,multiple_regions,STAR CINEMA | Now Showing | Ticeets $8,STAR CINEMA Now Showing: Now Showing Ticeets $8 Tickets 8,no
+flux-schnell,D09,multiple_regions,GREEN GARDEN | Seeds and Plants | SALE 20% OFF,GREEN GARDEN sete cit oh cies SALE 20% OFF,no
+flux-schnell,D10,multiple_regions,ART MUSEUM | New Exhibition | Entry $5,ART MUSEUM NEW EXHIBITION New Exhibition Entry $5,no
+flux-schnell,E01,spatial_layout,RED: | BLUE,RED: BLUE,yes
+flux-schnell,E02,spatial_layout,TOP | BOTTOM,TOP BOTTOM,yes
+flux-schnell,E03,spatial_layout,CAT | DOG,CAT DOG,yes
+flux-schnell,E04,spatial_layout,SUN | ,éy SUN,no
+flux-schnell,E05,spatial_layout,ENTER | EXIT,ENTER EXIT,yes
+flux-schnell,E06,spatial_layout,FIRST | SECOND | THIRD,FIRST SECOND THIRD,yes
+flux-schnell,E07,spatial_layout,NORTH | SOUTH,NORTH © - SOUTH,no
+flux-schnell,E08,spatial_layout,START | FINISH,START START FINISH,no
+flux-schnell,E09,spatial_layout,LEFT | RIGHT,LEFT RIGHT,yes
+flux-schnell,E10,spatial_layout,ABOVE | BELOW,ABOVE above BELOW,no

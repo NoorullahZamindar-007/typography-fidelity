@@ -1,0 +1,51 @@
+model,prompt_id,category,targets,transcribed,exact_match,visual_quality,spatial_score,error_type,notes
+flux-schnell,A01,single_word,HELLO,HELLO,1,5,,none,"Clean white poster, exact, centred."
+flux-schnell,A02,single_word,AURORA,AURORA,1,5,,none,Exact.
+flux-schnell,A03,single_word,QUANTUM,QUANTUM,1,5,,none,Exact; small corner marks only.
+flux-schnell,A04,single_word,BICYCLE,BICYCLE,1,5,,none,Exact.
+flux-schnell,A05,single_word,HARMONY,HARMONY,1,5,,none,Exact.
+flux-schnell,A06,single_word,KALEIDOSCOPE,KALEIDOSCOPE,1,5,,none,"Exact, 12-letter word."
+flux-schnell,A07,single_word,ZEPHYR,ZEPHYR,1,5,,none,Exact.
+flux-schnell,A08,single_word,MOSAIC,MOSA.IC,0,4,,insertion,"Target MOSAIC rendered with an inserted full stop after A; small corner numbers (20, 18, 14, 21) also present as extra text."
+flux-schnell,A09,single_word,SYMPHONY,SYMPHONY,1,5,,none,Exact.
+flux-schnell,A10,single_word,LABYRINTH,LABYRINTH,1,5,,none,"Exact; outlined letterforms, legible."
+flux-schnell,B01,short_phrase,GOOD MORNING,GOOD MORNING,1,4,,none,"Exact; two-line layout, letterforms touch image edges."
+flux-schnell,B02,short_phrase,OPEN EVERY DAY,OPEN EVERY DAY,1,5,,none,Exact; three-line layout.
+flux-schnell,B03,short_phrase,FRESH BREAD HERE,FRESH BREAD HERE,1,5,,none,Exact; three-line layout.
+flux-schnell,B04,short_phrase,READ MORE BOOKS,READ MORE BOOKS,1,5,,none,Exact; poster in a library scene.
+flux-schnell,B05,short_phrase,SILENT NIGHT SKY,SILENT NIGHT SKYY,0,5,,insertion,SKY rendered as SKYY (extra Y).
+flux-schnell,B06,short_phrase,WILD OCEAN WAVES,WILLD OCEAN WAVES,0,5,,insertion,WILD rendered as WILLD (extra L).
+flux-schnell,B07,short_phrase,HAPPY BIRTHDAY ANNA,HAPPY BIRTHDAY ANNA,1,5,,none,Exact; handwritten-style letterforms.
+flux-schnell,B08,short_phrase,WELCOME TO KABUL,WELCOME TO KABUL,1,5,,none,Exact.
+flux-schnell,B09,short_phrase,LEARN CODE CREATE,LEARN CODE CREATE,1,5,,none,Exact; handwritten-style letterforms.
+flux-schnell,B10,short_phrase,PEACE LOVE HOPE,PEACE L♥E HOPE,0,5,,substitution,"LOVE rendered as L+heart+E: the O is replaced by a heart glyph, so the word is not exact despite the attractive poster."
+flux-schnell,C01,numbers_punctuation,42,42,1,5,,none,Exact.
+flux-schnell,C02,numbers_punctuation,2026,2026,1,5,,none,Exact.
+flux-schnell,C03,numbers_punctuation,$19.99,$11999,0,5,,mixed,Target $19.99: decimal point dropped and an extra 1 inserted; clean price-tag rendering.
+flux-schnell,C04,numbers_punctuation,3.14159,3.14159,1,5,,none,Exact.
+flux-schnell,C05,numbers_punctuation,50% OFF!,50% OFF!,1,5,,none,Exact; shop-window sign.
+flux-schnell,C06,numbers_punctuation,555-0142,555.001142,0,3,,garbled,"Target 555-0142 rendered twice, both wrong: top line 555.001142, bottom line 55.000142; hyphen became a dot and extra digits inserted. Transcribed value is the top line (reading order)."
+flux-schnell,C07,numbers_punctuation,10:30 AM,11:300 AM,0,5,,mixed,Target 10:30 AM rendered as 11:300 AM (digit substitution plus extra 0).
+flux-schnell,C08,numbers_punctuation,"1,000,000","1,00,000",0,5,,deletion,"Target 1,000,000 rendered with one 0 dropped from the first group."
+flux-schnell,C09,numbers_punctuation,"A-7, B-9",A-7 B-9,0,5,,deletion,Comma replaced by a line break; both codes otherwise exact.
+flux-schnell,C10,numbers_punctuation,"Hello, World!","Hello, World!",1,5,,none,"Exact, including comma and exclamation mark."
+flux-schnell,D01,multiple_regions,KABUL CAFE | Fresh Coffee Daily | $3.50,KABUL CAFE | Fresh Coffely Daily | $3 50,0,4,,mixed,Title duplicated (both copies exact); Coffee rendered Coffely; $3.50 rendered $3 50 (decimal point replaced by a space).
+flux-schnell,D02,multiple_regions,THE QUIET RIVER | A Novel by Sara Ahmadi,THE QUIET RIVER | A Novel by SARA AHNMAII,0,5,,mixed,Title exact; author surname Ahmadi rendered AHNMAII.
+flux-schnell,D03,multiple_regions,SUN MARKET | Open 8 AM | Fresh Fruit,SUN MARKET | Open 8 AM | Fresh Fruit,1,4,,extra_text,"All three regions exact, but Open 8 AM is rendered twice; region-wise exactness still holds, extra copy noted here."
+flux-schnell,D04,multiple_regions,SCIENCE FAIR | Saturday 10 AM | Hall B,SCIENCE FAIR | Saturdait 10 Aw | Hall B,0,4,,mixed,"Title duplicated (both exact); Saturday rendered Saturdait and AM as Aw, with an extra 10 AM line below; Hall B exact."
+flux-schnell,D05,multiple_regions,GOLDEN LOAF | Baked Fresh | $2.75,GOLDEN LOEAF | Baked Fresh | $2.75,0,5,,insertion,LOAF rendered LOEAF (extra E); other two regions exact.
+flux-schnell,D06,multiple_regions,POWER GYM | Join Today | First Month Free,POWER GYM | JOIN TODAY | FIST MONTH FREE,0,4,,mixed,"Title exact. Join Today rendered in all caps with an extra small Join line above; First rendered FIST (r dropped, all caps). Case counts under the frozen rubric."
+flux-schnell,D07,multiple_regions,"CITY LIBRARY | Read, Learn, Grow | Open Daily",CITY LIBRARY | Read. Learn. Grow | Open Daily,0,5,,substitution,"Commas in Read, Learn, Grow rendered as full stops."
+flux-schnell,D08,multiple_regions,STAR CINEMA | Now Showing | Tickets $8,STAR CINEMA | Now Showing | Ticeets $8,0,4,,mixed,"Now Showing also appears with a colon; Tickets $8 appears as Ticeets $8 and, second copy, Tickets 8 without the dollar sign."
+flux-schnell,D09,multiple_regions,GREEN GARDEN | Seeds and Plants | Sale 20% Off,GREEN GARDEN | Seeds and Plants | SALE 20% OFF,0,5,,substitution,Sale 20% Off rendered in all caps (case-only difference under the frozen rubric).
+flux-schnell,D10,multiple_regions,ART MUSEUM | New Exhibition | Entry $5,ART MUSEUM | New Exhibition | Entry $5,1,4,,extra_text,All regions exact; New Exhibition also appears in all caps as an extra copy.
+flux-schnell,E01,spatial_layout,RED | BLUE,RED: | BLUE,0,5,1,insertion,"Spatial correct: RED left, BLUE right. RED carries an extra colon."
+flux-schnell,E02,spatial_layout,TOP | BOTTOM,TOP | BOTTOM,1,5,1,none,Exact and spatially correct.
+flux-schnell,E03,spatial_layout,CAT | DOG,CAT | DOG,1,5,1,none,Exact; CAT above DOG.
+flux-schnell,E04,spatial_layout,SUN | MOON,SUN | ,0,4,0.5,missing,SUN top-left present with a sun graphic; MOON bottom-right missing entirely.
+flux-schnell,E05,spatial_layout,ENTER | EXIT,ENTER | EXIT,1,5,1,none,"Exact; ENTER left, EXIT right, door scene."
+flux-schnell,E06,spatial_layout,FIRST | SECOND | THIRD,FIRST | SECOND | THIRD,1,5,1,none,Exact; correct vertical order.
+flux-schnell,E07,spatial_layout,NORTH | SOUTH,NORTH | SOUTH,1,5,1,none,"Exact; NORTH top, SOUTH bottom."
+flux-schnell,E08,spatial_layout,START | FINISH,START | FINISH,1,4,0.5,spatial,"Both words exact, but FINISH is at the bottom rather than on the right; START is duplicated on the left."
+flux-schnell,E09,spatial_layout,LEFT | RIGHT,LEFT | RIGHT,1,5,1,none,"Exact; LEFT left, RIGHT right."
+flux-schnell,E10,spatial_layout,ABOVE | BELOW,ABOVE | BELOW,1,4,1,extra_text,Both words exact and correctly ordered; ABOVE also appears in lowercase as an extra copy.
